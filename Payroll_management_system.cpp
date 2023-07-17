@@ -374,21 +374,18 @@ void insert()
 	emp[i].grosspay = (sal+MealA+MedicalA+TransportA+HRA+DA)-(PF+TAX+LoanDeb) ;
 	getch();
 }
-
 void intro()
 {
 	gotoXY(27,4); printf("PAYROLL MANAGEMENT SYSTEM");
     gotoXY(25,5); for(int i=0;i<29;i++) printf("%c",196);
     gotoXY(20,8); printf("Designed and Programmed by:");
     gotoXY(20,9);for(int i=0;i<29;i++) printf("%c",196);
-	gotoXY(20,11); printf("V.Poorna Chand");
-	gotoXY(20,13); printf("https://github.com/VangaPoornaChand");
-	gotoXY(20,15); printf("https://www.linkedin.com/in/poorna-chand-902642177/");
+	gotoXY(20,11); printf("Harsharaj B");
+	gotoXY(20,13); printf("https://github.com/harsharajb");
+	gotoXY(20,15); printf("https://www.linkedin.com/in/harsharajb/");
     gotoXY(24,20);printf("Press Any key to continue...");
     getch();
-    
 }
-
 void  list()
 {
 	//system("cls");
